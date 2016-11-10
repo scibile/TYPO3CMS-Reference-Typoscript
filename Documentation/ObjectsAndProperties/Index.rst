@@ -388,8 +388,8 @@ a                          a a a a
 a || b || c                a b c c c ...
 a || b \|*| c              a b c c c ...
 a || b \|*| c \|*| d || e  a b c c ... c c d e     Rule 1
-a || b \|*| c \|*| d || e  a b d e                 Rule 1
-a || b \|*| c \|*| d || e  a d e                   Rule 1
+a || b \|*| c \|*| d || e  a b d e      (4 items)  Rule 1
+a || b \|*| c \|*| d || e  a d e        (3 items)  Rule 1
 a || b \|*||*| c || d      a b ... b c d           Rule 2
 \|*|\|*| a || b            a a ... a b             Rule 3
 a \|*| b || c \|*|         a b c b c b c ... b c   Rule 4
